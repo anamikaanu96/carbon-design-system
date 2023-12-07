@@ -1,7 +1,6 @@
 {
   "name": "carbon-tutorial-nextjs",
   "version": "0.1.0",
-  "homepage": "https://anamikaanu96.github.io/carbon-design-system/",
   "private": true,
   "repository": "git@github.com:carbon-design-system/carbon-tutorial-nextjs.git",
   "bugs": "https://github.com/carbon-design-system/carbon-tutorial-nextjs/issues",
@@ -9,7 +8,6 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "deploy": "gh-pages -d .next",
     "start": "next start",
     "lint": "next lint",
     "ci-check": "yarn format:diff",
@@ -23,7 +21,6 @@
     "@octokit/core": "4.2.0",
     "eslint": "8.44.0",
     "eslint-config-next": "13.4.9",
-    "gh-pages": "^6.1.0",
     "next": "13.4.9",
     "react": "18.2.0",
     "react-dom": "18.2.0",
