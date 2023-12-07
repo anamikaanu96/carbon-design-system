@@ -6,9 +6,9 @@
   "bugs": "https://github.com/carbon-design-system/carbon-tutorial-nextjs/issues",
   "license": "Apache-2.0",
   "scripts": {
-    "build": "next build",
+    "build": "next build && next export && touch ./out/.nojekyll",
     "dev": "next dev",
-    "deploy": "gh-pages -d out",
+    "deploy": "gh-pages -d out -t true",
     "start": "next start",
     "lint": "next lint",
     "ci-check": "yarn format:diff",
