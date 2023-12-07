@@ -61,7 +61,7 @@ export default function LandingPage() {
                   <Button>Learn more</Button>
                 </Column>
                 <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
-                  <Image
+                  <img
                     className="landing-page__illo"
                     src={trelloImg}
                     alt="Carbon illustration"
