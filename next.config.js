@@ -5,8 +5,8 @@ const nextConfig = {
   output: 'export',
   assetPrefix: './',
   images: {
-    loader: 'custom',
-    loaderFile: './my-loader.ts',
+    loader: 'imgix',
+    path: '',
   },
 };
 

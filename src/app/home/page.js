@@ -19,6 +19,7 @@ import {
 } from '@carbon/pictograms-react';
 import { InfoSection, InfoCard } from '@/components/Info/Info';
 import Image from 'next/image';
+import trelloImg from '../../../public/tab-illo.png';
 
 export default function LandingPage() {
   return (
@@ -62,7 +63,7 @@ export default function LandingPage() {
                 <Column md={4} lg={{ span: 8, offset: 7 }} sm={4}>
                   <Image
                     className="landing-page__illo"
-                    src="/tab-illo.png"
+                    src={trelloImg}
                     alt="Carbon illustration"
                     width={786}
                     height={647}
