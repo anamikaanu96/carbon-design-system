@@ -3,11 +3,7 @@
 const nextConfig = {
   trailingSlash: true,
   output: 'export',
-  assetPrefix: './',
-  images: {
-    loader: 'imgix',
-    path: '',
-  },
+  basePath: '/carbon-design-system',
 };
 
 module.exports = nextConfig;
